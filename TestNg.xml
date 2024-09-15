@@ -1,0 +1,9 @@
+<suite name="Regression">
+    <parameter name="browser" value="chrome"/>
+    <test name="chromeTest" preserve-order="true">
+        <classes>
+            <class name="TestCases.Get_Free_Trial_Test"/>
+        </classes>
+    </test>
+    
+</suite>
